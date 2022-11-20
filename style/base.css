@@ -1,0 +1,35 @@
+/**
+*
+* base.css
+* @author- Arshath
+* @date- 20/11/2022
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fragment+Mono:ital@0;1&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    background-color: #2D4B4F;
+}
+h1 {
+    font-size: 37px;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 200;
+    margin: 0 0 0 10px;
+}
+p {
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+input {
+    width: 301px;
+    margin: 5px 0;
+    padding: 8px 13px;
+    border: none;
+    border-radius: 3px;
+}
+span {
+    font-size: 12px;
+}

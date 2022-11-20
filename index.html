@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weight-Converter</title>
+    <link rel="stylesheet" href="./style/index.css"/>
+</head>
+<body>
+    <section id="weight-converter">
+        <div class="container">
+            <h1>Weight Converter</h1>
+            <input type="number" placeholder="Enter Kilograms..." id="kilograms" 
+            oninput="weightConverter()" onchange="weightConverter()"/>
+            <div class="grams">
+                <p>Grams:</p>
+                <span id="input-kg"></span>
+            </div>
+            <div class="pounds">
+                <p>Pounds:</p>
+                <span id="input-pound"></span>
+            </div>
+            <div class="ounces">
+                <p>Ounces:</p>
+                <span id="input-ounce"></span>
+            </div>
+        </div>
+    </section>
+    <script src="./script/script.js"></script>
+</body>
+</html>
